@@ -1,3 +1,8 @@
+<!-- http://127.0.0.1:5500/docs/htmls/cases/signup.html?
+  Name=name&id=id&password=pass&password_check=passcheck&
+  email=email&emil_address=email_ad&phone_rep=010&middlenum=11&
+  lastnum=22&statenum=031&middlenum_2=33&lastnum_2=44&address_num=55
+  &address=66&re_SMS=on -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,6 +17,7 @@
     </style>
   </head>
   <body>
+    <h3><a href="../../index.html">Index</a></h3>
     <h4>기본정보</h4>
     <form action="" method="get">
       <table border="1">
@@ -48,7 +54,7 @@
           <td height="50" align="center">비밀번호 확인</td>
           <td>
             &nbsp;<input
-              type="text"
+              type="password"
               name="password_check"
               id="password_check_id"
             />
@@ -60,8 +66,8 @@
             &nbsp;<input type="text" name="email" id="email_id" />
             @
             <input type="text" name="emil_address" id="email_address_id" />
-            <select name="emil_address" id="email_address_id">
-              <option value="none">메일주소선택</option>
+            <select name="">
+              <option value="">메일주소선택</option>
               <option value="gmail">gmail.com</option>
               <option value="naver">naver.com</option>
             </select>
@@ -72,7 +78,7 @@
           <td>
             <div>
               휴대전화
-              <select style="width: 50px" name="+82" id="">
+              <select style="width: 50px" name="phone_rep" id="">
                 <option value="010">010</option>
                 <option value="010">011</option>
               </select>
@@ -127,6 +133,7 @@
           </td>
         </tr>
       </table>
+      <button type="submit">Sumit</button>
     </form>
   </body>
 </html>
