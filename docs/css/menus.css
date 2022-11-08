@@ -1,0 +1,23 @@
+div {
+  margin-bottom: 20px;
+}
+.font-type {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.back-ground-type {
+  background-color: yellow;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  margin-right: 25px;
+}
