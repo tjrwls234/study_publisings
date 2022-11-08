@@ -1,0 +1,46 @@
+.main-class {
+  display: flex;
+  background-color: yellow;
+  width: 550px;
+  height: 600px;
+  padding: 10px;
+  border: 1px dotted;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 15px;
+  width: 150px;
+}
+
+.list > li {
+  margin-bottom: 10px;
+  border-right: solid;
+  border-right-width: 15px;
+  padding: 5px;
+  background-color: white;
+  font-weight: bold;
+}
+
+.head-font {
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(147, 0, 128);
+  margin-bottom: 20px;
+}
+
+.main-font {
+  color: rgb(147, 0, 128);
+  font-weight: bold;
+  border-bottom: dotted black 2px;
+}
+.main-font > div {
+  margin: 10px 0 20px 0;
+}
+
+.last-font {
+  color: rgb(147, 0, 128);
+  font-weight: bold;
+  padding-top: 20px;
+}
