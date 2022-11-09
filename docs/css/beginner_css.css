@@ -1,5 +1,6 @@
 body {
   display: flex;
+  justify-content: center;
   background-color: rgb(216, 218, 61);
   padding: 10px;
 }
