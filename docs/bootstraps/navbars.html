@@ -14,9 +14,33 @@
     <link rel="stylesheet" href="./css/commons.css" />
   </head>
   <body>
-    <div class="fs-3">Navigations Bar</div>
-    <div class="container">
-      <nav class="navbar">
+    <div class="fs-3">Navigations Bar with collapse</div>
+    <nav class="navbar navbar-expand-sm bg-light">
+      <div class="container-fluid">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            width="40"
+            alt=""
+          />
+          Brend
+        </a>
+        <a href="#collapseId" class="navbar-toggler" data-bs-toggle="collapse"
+          ><span class="navbar-toggler-icon"></span
+        ></a>
+        <div class="collapse navbar-collapse" id="collapseId">
+          <div class="navbar-nav">
+            <a href="" class="nav-link">Home</a>
+            <a href="" class="nav-link">Feature</a>
+            <a href="" class="nav-link">Pricing</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bar with dropdown</div>
+    <nav class="navbar navbar-expand bg-primary navbar-prumary opacity-75">
+      <div class="container">
         <a href="" class="navbar-brand">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
@@ -26,12 +50,80 @@
           Brend
         </a>
         <div class="navbar-nav">
-          <a href="" class="">Home</a>
-          <a href="" class="">Feature</a>
-          <a href="" class="">Pricing</a>
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+          <div class="dropdown nav-item">
+            <a
+              href="#dropdownID"
+              class="dropdown-toggle nav-link"
+              data-bs-toggle="dropdown"
+              >Dropdown</a
+            >
+            <div id="dropdownID" class="dropdown-menu">
+              <a href="" class="dropdown-item">One Menu</a>
+              <a href="" class="dropdown-item">Two Menu</a>
+              <a href="" class="dropdown-item">Three Menu</a>
+            </div>
+          </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bar with color</div>
+    <nav class="navbar navbar-expand bg-primary navbar-prumary opacity-75">
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            width="40"
+            alt=""
+          />
+          Brend
+        </a>
+        <div class="navbar-nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bar with brand</div>
+    <nav class="navbar navbar-expand bg-light">
+      <div class="container">
+        <a href="" class="navbar-brand">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+            width="40"
+            alt=""
+          />
+          Brend
+        </a>
+        <div class="navbar-nav">
+          <a href="" class="nav-link">Home</a>
+          <a href="" class="nav-link">Feature</a>
+          <a href="" class="nav-link">Pricing</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="fs-3">Navigations Bar basic</div>
+    <nav class="navbar navbar-expand">
+      <a href="" class="navbar-brand">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg"
+          width="40"
+          alt=""
+        />
+        Brend
+      </a>
+      <div class="navbar-nav">
+        <a href="" class="nav-link">Home</a>
+        <a href="" class="nav-link">Feature</a>
+        <a href="" class="nav-link">Pricing</a>
+      </div>
+    </nav>
     <hr class="hr" />
 
     <script
